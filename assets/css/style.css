@@ -57,3 +57,19 @@ header{
     background-color: var(--corPadraoB);
     color: #ffffff;
 }
+.menu-items{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid var(--corPadraoB);
+    display: block;
+    opacity: 0;
+    /* transition: 0.2s; */
+}
+
+.menu-items a:hover{
+    color: var(--corPadraoC);
+}
