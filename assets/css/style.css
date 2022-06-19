@@ -57,19 +57,62 @@ header{
     background-color: var(--corPadraoB);
     color: #ffffff;
 }
-.menu-items{
-    position: absolute;
-    left: 0;
-    top: 60px;
-    width: 100%;
-    text-align: center;
-    background-color: #ffffff;
-    border-bottom: 2px solid var(--corPadraoB);
-    display: block;
-    opacity: 0;
-    /* transition: 0.2s; */
+
+section.main{
+    background-image: url('/assets/img/hero-bg.jpg');
+    padding: 50px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.menu-items a:hover{
-    color: var(--corPadraoC);
+.main-cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main-cta h2{
+    color: var(--corPadraoA);
+    font-size: 40px;
+}
+
+.main-cta p {
+    color: #808080;
+    font-size: 19px;
+    margin: 10px 0;
+    border: 0;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    background-color: #ffffff;
+    margin: 1px 5px;
+    width: 23%;
+    margin-right: 1%;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 29px rgb(18 66 101 / 8%);
+}
+
+.diferencial-single i{
+    color: var(--corPadraoB);
+    font-size: 23px;
+}
+
+.diferencial-single h2{
+    color: var(--corPadraoB);
+    margin: 10px;
+    font-size: 17px;
+}
+
+.diferencial-single p{
+    color: #808080;
+    font-size: 14px;
+    line-height: 30px;
 }
