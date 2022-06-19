@@ -8,6 +8,8 @@
     --corPadraoA: #ca2104;
     --corPadraoB: #8a1702;
     --corPadraoC: #fd2c3c;
+    --corPadraoD: #706f6f;
+    --corPadraoE: #444444;
 }
 .center{
     max-width: 1000px;
@@ -79,7 +81,7 @@ section.main{
 }
 
 .main-cta p {
-    color: #808080;
+    color: var(--corPadraoD);
     font-size: 19px;
     margin: 10px 0;
     border: 0;
@@ -112,7 +114,43 @@ section.main{
 }
 
 .diferencial-single p{
-    color: #808080;
+    color: var(--corPadraoD);
     font-size: 14px;
     line-height: 30px;
+}
+
+section .sobre{
+    padding: 80px;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+.chamada-sobre h2{
+    color: var(--corPadraoB);
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: var(--corPadraoD);
+    margin: 10px 0;
+}
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    color: var(--corPadraoE);
+}
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+.conteudo-sobre i{
+    color: var(--corPadraoC);
 }
