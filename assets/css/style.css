@@ -161,13 +161,30 @@ section.conquistas{
 }
 
 .conquista-single{
-    width: 22%;
+    width: 23%;
     margin-right: 3%;
     text-align: center;
     color: var(--corPadraoB);
 }
+
 .conquista-single h2{
     font-size: 30px;
+}
+.conquista-single img{
+    max-width: 100%;
+    filter: grayscale(100%);
+    transform: scale(1,1);
+    transition: 0.4s;
+}
+
+.conquista-single img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1,1.1);
+}
+
+.conquista-single.logo_abaixo{
+    width: 16%;
+    margin-right: 9%;
 }
 
 section.sobre-empreendedor{
@@ -199,5 +216,4 @@ section.sobre-empreendedor{
     font-size: 14px;
     margin-bottom: 14px;
 }
-
 
