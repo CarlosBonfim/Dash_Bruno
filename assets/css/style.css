@@ -41,7 +41,7 @@ header{
     font-size: 14px;
     text-decoration: none;
     margin-right: 20px;
-    /* transition: 0.15s; */
+    transition: 0.15s;
 }
 
 .menu a:hover{
@@ -59,6 +59,8 @@ header{
     background-color: var(--corPadraoB);
     color: #ffffff;
 }
+
+
 
 section.main{
     background-image: url('/assets/img/hero-bg.jpg');
@@ -216,4 +218,59 @@ section.sobre-empreendedor{
     font-size: 14px;
     margin-bottom: 14px;
 }
+section.depoimentos{
+    padding: 40px 0;
+}
+section.depoimentos .depoimentos-chamada{
+    text-align: center;
+}
 
+.depoimentos-chamada h2{
+    color: var(--corPadraoB);
+    text-transform: uppercase;
+    /* font-size: 40px; */
+}
+
+.depoimentos-chamada p{
+    color: var(--corPadraoE);
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.carousel{
+    display: flex;
+}
+
+.carousel-single{
+    width: 31%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.carousel-single img{
+    width: 70px;
+    height: 70px;
+    display: inline;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+
+.carousel-single-box{
+    padding: 20px;
+    background-color: #f3f9fd;
+    border-radius: 10px;
+}
+
+.carousel-single-box i{
+    color: #a9b7c0;
+    font-size: 19px;
+    padding: 0 8px;
+}
+.carousel-single-box p{
+    font-style: italic;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+.carousel-single span{
+    color: #cccccc;
+}
