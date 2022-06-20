@@ -119,7 +119,7 @@ section.main{
     line-height: 30px;
 }
 
-section .sobre{
+section.sobre{
     padding: 80px;
 }
 
@@ -153,4 +153,19 @@ section .sobre{
 }
 .conteudo-sobre i{
     color: var(--corPadraoC);
+}
+
+section.conquistas{
+    background-color: #f8fbfe;
+    padding: 20px 0;
+}
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: var(--corPadraoB);
+}
+.conquista-single h2{
+    font-size: 30px;
 }
