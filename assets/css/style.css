@@ -36,6 +36,11 @@ header{
     text-align: right;
 }
 
+.menu-mobile{
+    display: none;
+    padding-right: 15px;
+}
+
 .menu a{
     color: var(--corPadraoB);
     font-size: 14px;
@@ -60,7 +65,31 @@ header{
     color: #ffffff;
 }
 
+.menu-items{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-bottom: 2px solid var(--corPadraoB);
+    display: block;
+    opacity: 0;
+    transition: 0.2s;
+}
+.menu-items a:hover{
+    color: var(--corPadraoC);
+}
 
+.menu-items.show{
+    opacity: 1;
+    /* display: contents; */
+}
+
+.menu-items.hidde{
+    opacity: 0;
+    /* display: none; */
+}
 
 section.main{
     background-image: url('/assets/img/hero-bg.jpg');
@@ -273,4 +302,31 @@ section.depoimentos .depoimentos-chamada{
 }
 .carousel-single span{
     color: #cccccc;
+}
+
+
+@media screen and (max-width:768px) {
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .conteudo-sobre p{
+        width: 100%;
+        margin: 20px 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        width: 20%;
+    }
+    .menu-mobile{
+        display: block;
+        text-align: right;
+        width: 80%;
+    }
+    .menu-mobile{
+        cursor: pointer;
+        font-size: 23px;
+    }
 }
