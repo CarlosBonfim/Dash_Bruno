@@ -89,8 +89,8 @@ header{
 
 .menu-items.show{
     opacity: 1;
-    /* display: contents; */
-}
+     /* display: contents; */
+} 
 
 .menu-items.hidde{
     opacity: 0;
