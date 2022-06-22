@@ -12,7 +12,7 @@ var el = document.querySelector(".menu-mobile-icon");
 //     }
 // });
 
-// function myFunction() {
+// function myFunction() {'
 //     console.log('Teste pra saber se entrou ');
 // }
 

@@ -334,6 +334,26 @@ section.depoimentos .depoimentos-chamada{
     color: #cccccc;
 }
 
+footer{
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.rodape p{
+    float: right;
+    margin: 15px;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: var(--corPadraoE);
+}
+.rodape p i{
+    /* margin-left: 2px;
+    margin-right: 2px; */
+    padding-inline: 5px;
+}
+
 
 @media screen and (max-width:768px) {
     .diferencial-single{
