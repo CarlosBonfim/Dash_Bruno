@@ -335,25 +335,48 @@ section.depoimentos .depoimentos-chamada{
 }
 
 footer{
-    background-color: #e6e6e6;
-    display: flex;
-    flex-direction: column;
+    background-color: #f3f9fd;
     bottom: 0;
+    width: 100%;
+    text-align: center;
+
 }
 
-.rodape p{
-    float: right;
-    margin: 15px;
-    font-size: 0.8em;
-    font-weight: 100;
+.title-list{
     color: var(--corPadraoE);
+    font-weight: 200;
+    padding: 20px;
 }
-.rodape p i{
-    /* margin-left: 2px;
-    margin-right: 2px; */
-    padding-inline: 5px;
+.listas{
+    display: inline-block;
+}
+.liA, .liB, .liC{
+    display: inline-block;
+    margin-inline: 100px;
+
 }
 
+footer li{
+    list-style: none;
+    color: var(--corPadraoE);
+    font-size: 12px;
+}
+.info_rights{
+    font-size: 10px;
+    color: #706f6f;
+    margin: 10px;
+    text-align: end;
+}
+.info_rights i{
+    padding-inline: 2px;
+}
+
+@media screen and (max-width: 880px) {
+    .liA, .liB, .liC{
+        display: inline-block;
+        margin-inline: 50px;
+    }
+}
 
 @media screen and (max-width:768px) {
     .diferencial-single{
@@ -378,5 +401,13 @@ footer{
     .menu-mobile{
         cursor: pointer;
         font-size: 23px;
+    }
+
+
+}
+@media screen and (max-width: 560px) {
+    .liA, .liB, .liC{
+        display: inline-block;
+        margin-inline: 10px;
     }
 }
